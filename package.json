@@ -1,0 +1,26 @@
+{
+  "name": "frontend_trak",
+  "version": "1.0.0",
+  "private": true,
+  "description": "frontend_trak",
+  "author": "danielSoler93",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "license": "0BSD",
+  "dependencies": {
+    "amplitude-js": "^7.3.3",
+    "babel-plugin-react-scoped-css": "^1.1.0",
+    "craco-plugin-scoped-css": "^1.1.0",
+    "gatsby": "^2.26.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

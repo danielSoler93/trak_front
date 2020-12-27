@@ -1,0 +1,131 @@
+.buttons {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.solicitar {
+    margin-top: 30px;
+    color: black !important;
+    font-family: Tahoma;
+    font-weight: 400;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.footer-element {
+  width: 33%;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #3b5998;
+}
+
+.footer {
+    font-size: 10px;
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    left: 7%;
+    width: 100%;
+}
+
+
+
+.iniciar_sesion_info {
+    color: grey !important;
+    line-height: 1.6;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.iniciar_sesion {
+    margin-top: 10%;
+}
+
+
+html {min-height:100%; }
+
+body {
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+    height: 100vh;
+    }
+
+
+
+
+@media (max-width: 980px) {
+  .footer { left: 0;}
+}
+
+
+.right-inner {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+@media (max-width: 980px) {
+  .buttons {
+    display: inline;
+    margin: 0;
+  }
+  .links {
+    margin-right: 0px !important;
+    font-family: "Open Sans", sans-serif;
+
+  }
+}
+
+
+.iniciar_sesion-title {
+    font-size: 25px;
+    font-family: Tahoma;
+}
+
+.links {
+    margin-right: 40px;
+    background-color: #3b5998;
+    text-decoration: none;
+
+    color: white;
+    width: 30%;
+  float: none;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 0;
+  border-radius: 3px;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  cursor:pointer;
+  transition-duration: 0.4s;
+}
+
+.links:hover {
+    background-color: #37727B;
+    color: white;
+    transition: all 1s ease;
+}
+
+
+.logo-image {
+    margin:auto;
+    width: 124px;
+    text-align: center;
+    display: inline-block !important; /* remove extra space below image */
+}
+
+.logo-title {
+    position: relative;
+    margin-top: 0px;
+    left: 10px;
+    font-family: Tahoma;
+    font-size: 40px;
+
+}
